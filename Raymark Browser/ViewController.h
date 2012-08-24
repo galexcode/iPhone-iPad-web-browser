@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *btnStop;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *btnRefresh;
 
+
 - (IBAction)btnGoClicked:(id)sender;
 - (IBAction)btnBackClicked:(id)sender;
 - (IBAction)btnForwardClicked:(id)sender;

@@ -41,7 +41,7 @@
 		D75922D215E74BC300365802 /* go-into24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-into24.png"; sourceTree = "<group>"; };
 		D75922D315E74BC300365802 /* refresh24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh24.png; sourceTree = "<group>"; };
 		D75922D415E74BC300365802 /* stop24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop24.png; sourceTree = "<group>"; };
-		D78E87E015E73A2000863338 /* Raymark Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raymark Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78E87E015E73A2000863338 /* Raymark Browser-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raymark Browser-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78E87E415E73A2000863338 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D78E87E615E73A2000863338 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D78E87E815E73A2000863338 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,7 +111,7 @@
 		D78E87E115E73A2000863338 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D78E87E015E73A2000863338 /* Raymark Browser.app */,
+				D78E87E015E73A2000863338 /* Raymark Browser-iPhone.app */,
 				D75922CA15E74AD600365802 /* Raymark Browser-iPad.app */,
 			);
 			name = Products;
@@ -196,7 +196,7 @@
 			);
 			name = "Raymark Browser-iPhone";
 			productName = "Raymark Browser";
-			productReference = D78E87E015E73A2000863338 /* Raymark Browser.app */;
+			productReference = D78E87E015E73A2000863338 /* Raymark Browser-iPhone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
