@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D75922B915E74AD600365802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D78E87F015E73A2000863338 /* main.m */; };
+		D75922BA15E74AD600365802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D78E87F415E73A2000863338 /* AppDelegate.m */; };
+		D75922BB15E74AD600365802 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78E87FA15E73A2000863338 /* ViewController.m */; };
+		D75922BD15E74AD600365802 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E87E415E73A2000863338 /* UIKit.framework */; };
+		D75922BE15E74AD600365802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E87E615E73A2000863338 /* Foundation.framework */; };
+		D75922BF15E74AD600365802 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E87E815E73A2000863338 /* CoreGraphics.framework */; };
+		D75922C115E74AD600365802 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D78E87ED15E73A2000863338 /* InfoPlist.strings */; };
+		D75922D015E74B3A00365802 /* Storyboard-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75922CF15E74B3A00365802 /* Storyboard-iPad.storyboard */; };
+		D75922D515E74BC300365802 /* go-back24.png in Resources */ = {isa = PBXBuildFile; fileRef = D75922D115E74BC300365802 /* go-back24.png */; };
+		D75922D615E74BC300365802 /* go-into24.png in Resources */ = {isa = PBXBuildFile; fileRef = D75922D215E74BC300365802 /* go-into24.png */; };
+		D75922D715E74BC300365802 /* refresh24.png in Resources */ = {isa = PBXBuildFile; fileRef = D75922D315E74BC300365802 /* refresh24.png */; };
+		D75922D815E74BC300365802 /* stop24.png in Resources */ = {isa = PBXBuildFile; fileRef = D75922D415E74BC300365802 /* stop24.png */; };
 		D78E87E515E73A2000863338 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E87E415E73A2000863338 /* UIKit.framework */; };
 		D78E87E715E73A2000863338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E87E615E73A2000863338 /* Foundation.framework */; };
 		D78E87E915E73A2000863338 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E87E815E73A2000863338 /* CoreGraphics.framework */; };
@@ -15,25 +27,50 @@
 		D78E87F515E73A2000863338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D78E87F415E73A2000863338 /* AppDelegate.m */; };
 		D78E87F815E73A2000863338 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78E87F615E73A2000863338 /* MainStoryboard.storyboard */; };
 		D78E87FB15E73A2000863338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78E87FA15E73A2000863338 /* ViewController.m */; };
+		D78E880615E73B7900863338 /* go-back16.png in Resources */ = {isa = PBXBuildFile; fileRef = D78E880215E73B7900863338 /* go-back16.png */; };
+		D78E880715E73B7900863338 /* go-into16.png in Resources */ = {isa = PBXBuildFile; fileRef = D78E880315E73B7900863338 /* go-into16.png */; };
+		D78E880815E73B7900863338 /* refresh16.png in Resources */ = {isa = PBXBuildFile; fileRef = D78E880415E73B7900863338 /* refresh16.png */; };
+		D78E880915E73B7900863338 /* stop16.png in Resources */ = {isa = PBXBuildFile; fileRef = D78E880515E73B7900863338 /* stop16.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D75922CA15E74AD600365802 /* Raymark Browser-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raymark Browser-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75922CD15E74AD700365802 /* Raymark Browser copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Raymark Browser copy-Info.plist"; path = "/Users/raymark/Desktop/Demo/Raymark Browser/Raymark Browser copy-Info.plist"; sourceTree = "<absolute>"; };
+		D75922CF15E74B3A00365802 /* Storyboard-iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Storyboard-iPad.storyboard"; path = "Resources-iPad/Storyboard-iPad.storyboard"; sourceTree = "<group>"; };
+		D75922D115E74BC300365802 /* go-back24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-back24.png"; sourceTree = "<group>"; };
+		D75922D215E74BC300365802 /* go-into24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-into24.png"; sourceTree = "<group>"; };
+		D75922D315E74BC300365802 /* refresh24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh24.png; sourceTree = "<group>"; };
+		D75922D415E74BC300365802 /* stop24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop24.png; sourceTree = "<group>"; };
 		D78E87E015E73A2000863338 /* Raymark Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raymark Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78E87E415E73A2000863338 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D78E87E615E73A2000863338 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D78E87E815E73A2000863338 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D78E87EC15E73A2000863338 /* Raymark Browser-Info.plist */ = {isa = PBXFileReference; path = "Raymark Browser-Info.plist"; sourceTree = "<group>"; };
+		D78E87EC15E73A2000863338 /* Raymark Browser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Raymark Browser-Info.plist"; sourceTree = "<group>"; };
 		D78E87EE15E73A2000863338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D78E87F015E73A2000863338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D78E87F215E73A2000863338 /* Raymark Browser-Prefix.pch */ = {isa = PBXFileReference; path = "Raymark Browser-Prefix.pch"; sourceTree = "<group>"; };
-		D78E87F315E73A2000863338 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D78E87F215E73A2000863338 /* Raymark Browser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Raymark Browser-Prefix.pch"; sourceTree = "<group>"; };
+		D78E87F315E73A2000863338 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D78E87F415E73A2000863338 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D78E87F715E73A2000863338 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D78E87F915E73A2000863338 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D78E87F915E73A2000863338 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D78E87FA15E73A2000863338 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D78E880215E73B7900863338 /* go-back16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-back16.png"; sourceTree = "<group>"; };
+		D78E880315E73B7900863338 /* go-into16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-into16.png"; sourceTree = "<group>"; };
+		D78E880415E73B7900863338 /* refresh16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh16.png; sourceTree = "<group>"; };
+		D78E880515E73B7900863338 /* stop16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop16.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D75922BC15E74AD600365802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75922BD15E74AD600365802 /* UIKit.framework in Frameworks */,
+				D75922BE15E74AD600365802 /* Foundation.framework in Frameworks */,
+				D75922BF15E74AD600365802 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D78E87DD15E73A2000863338 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,12 +84,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D75922CC15E74AD700365802 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				D75922D115E74BC300365802 /* go-back24.png */,
+				D75922D215E74BC300365802 /* go-into24.png */,
+				D75922D315E74BC300365802 /* refresh24.png */,
+				D75922D415E74BC300365802 /* stop24.png */,
+				D75922CF15E74B3A00365802 /* Storyboard-iPad.storyboard */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
 		D78E87D515E73A1F00863338 = {
 			isa = PBXGroup;
 			children = (
+				D75922CC15E74AD700365802 /* Resources-iPad */,
+				D78E880115E73B7900863338 /* demoResources */,
 				D78E87EA15E73A2000863338 /* Raymark Browser */,
 				D78E87E315E73A2000863338 /* Frameworks */,
 				D78E87E115E73A2000863338 /* Products */,
+				D75922CD15E74AD700365802 /* Raymark Browser copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				D78E87E015E73A2000863338 /* Raymark Browser.app */,
+				D75922CA15E74AD600365802 /* Raymark Browser-iPad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,12 +151,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D78E880115E73B7900863338 /* demoResources */ = {
+			isa = PBXGroup;
+			children = (
+				D78E880215E73B7900863338 /* go-back16.png */,
+				D78E880315E73B7900863338 /* go-into16.png */,
+				D78E880415E73B7900863338 /* refresh16.png */,
+				D78E880515E73B7900863338 /* stop16.png */,
+			);
+			path = demoResources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D78E87DF15E73A2000863338 /* Raymark Browser */ = {
+		D75922B715E74AD600365802 /* Raymark Browser-iPad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D78E87FE15E73A2000863338 /* Build configuration list for PBXNativeTarget "Raymark Browser" */;
+			buildConfigurationList = D75922C715E74AD600365802 /* Build configuration list for PBXNativeTarget "Raymark Browser-iPad" */;
+			buildPhases = (
+				D75922B815E74AD600365802 /* Sources */,
+				D75922BC15E74AD600365802 /* Frameworks */,
+				D75922C015E74AD600365802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Raymark Browser-iPad";
+			productName = "Raymark Browser";
+			productReference = D75922CA15E74AD600365802 /* Raymark Browser-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D78E87DF15E73A2000863338 /* Raymark Browser-iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78E87FE15E73A2000863338 /* Build configuration list for PBXNativeTarget "Raymark Browser-iPhone" */;
 			buildPhases = (
 				D78E87DC15E73A2000863338 /* Sources */,
 				D78E87DD15E73A2000863338 /* Frameworks */,
@@ -113,7 +194,7 @@
 			);
 			dependencies = (
 			);
-			name = "Raymark Browser";
+			name = "Raymark Browser-iPhone";
 			productName = "Raymark Browser";
 			productReference = D78E87E015E73A2000863338 /* Raymark Browser.app */;
 			productType = "com.apple.product-type.application";
@@ -139,24 +220,52 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D78E87DF15E73A2000863338 /* Raymark Browser */,
+				D78E87DF15E73A2000863338 /* Raymark Browser-iPhone */,
+				D75922B715E74AD600365802 /* Raymark Browser-iPad */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D75922C015E74AD600365802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75922C115E74AD600365802 /* InfoPlist.strings in Resources */,
+				D75922D015E74B3A00365802 /* Storyboard-iPad.storyboard in Resources */,
+				D75922D515E74BC300365802 /* go-back24.png in Resources */,
+				D75922D615E74BC300365802 /* go-into24.png in Resources */,
+				D75922D715E74BC300365802 /* refresh24.png in Resources */,
+				D75922D815E74BC300365802 /* stop24.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D78E87DE15E73A2000863338 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D78E87EF15E73A2000863338 /* InfoPlist.strings in Resources */,
 				D78E87F815E73A2000863338 /* MainStoryboard.storyboard in Resources */,
+				D78E880615E73B7900863338 /* go-back16.png in Resources */,
+				D78E880715E73B7900863338 /* go-into16.png in Resources */,
+				D78E880815E73B7900863338 /* refresh16.png in Resources */,
+				D78E880915E73B7900863338 /* stop16.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D75922B815E74AD600365802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75922B915E74AD600365802 /* main.m in Sources */,
+				D75922BA15E74AD600365802 /* AppDelegate.m in Sources */,
+				D75922BB15E74AD600365802 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D78E87DC15E73A2000863338 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,6 +298,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D75922C815E74AD600365802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raymark Browser/Raymark Browser-Prefix.pch";
+				INFOPLIST_FILE = "Raymark Browser copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "Raymark Browser-iPad";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D75922C915E74AD600365802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raymark Browser/Raymark Browser-Prefix.pch";
+				INFOPLIST_FILE = "Raymark Browser copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "Raymark Browser-iPad";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		D78E87FC15E73A2000863338 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -259,6 +394,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D75922C715E74AD600365802 /* Build configuration list for PBXNativeTarget "Raymark Browser-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75922C815E74AD600365802 /* Debug */,
+				D75922C915E74AD600365802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D78E87DA15E73A1F00863338 /* Build configuration list for PBXProject "Raymark Browser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -268,13 +412,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D78E87FE15E73A2000863338 /* Build configuration list for PBXNativeTarget "Raymark Browser" */ = {
+		D78E87FE15E73A2000863338 /* Build configuration list for PBXNativeTarget "Raymark Browser-iPhone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D78E87FF15E73A2000863338 /* Debug */,
 				D78E880015E73A2000863338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

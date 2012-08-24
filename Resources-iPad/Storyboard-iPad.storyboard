@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="YBg-bd-wv9">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="N1J-2x-lAF">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xwh-FL-ns2" sceneMemberID="firstResponder"/>
+                <viewController id="YBg-bd-wv9" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lEz-0f-ZSe">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="CJH-0f-1MV">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" id="HD8-01-RaE">
+                                <rect key="frame" x="20" y="6" width="666" height="31"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL" returnKeyType="go"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YBg-bd-wv9" id="KoK-br-j5C"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DVi-JF-XSx">
+                                <rect key="frame" x="694" y="6" width="54" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" title="Go">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnGoClicked:" destination="YBg-bd-wv9" eventType="touchUpInside" id="9dD-RB-Xsf"/>
+                                </connections>
+                            </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="agj-LC-Zt1">
+                                <rect key="frame" x="0.0" y="960" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Im9-fE-ge6"/>
+                                    <barButtonItem image="go-back24.png" id="Vhc-dT-Peo">
+                                        <connections>
+                                            <action selector="btnBackClicked:" destination="YBg-bd-wv9" id="wWI-l0-ytw"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="4WG-GH-2Ce"/>
+                                    <barButtonItem image="go-into24.png" id="ZQY-xR-Jiq">
+                                        <connections>
+                                            <action selector="btnForwardClicked:" destination="YBg-bd-wv9" id="Yb6-lh-Bpc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="EF7-L9-L3j"/>
+                                    <barButtonItem image="stop24.png" id="irC-TK-RWJ">
+                                        <connections>
+                                            <action selector="btnStopClicked:" destination="YBg-bd-wv9" id="2st-o9-Lic"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="yZf-uw-hZP"/>
+                                    <barButtonItem image="refresh24.png" id="pEW-6g-zo6">
+                                        <connections>
+                                            <action selector="btnRefreshClicked:" destination="YBg-bd-wv9" id="Ivq-lq-mQS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="1mw-Dw-9hm"/>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" id="HHg-yA-Irc">
+                                <rect key="frame" x="0.0" y="44" width="768" height="916"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YBg-bd-wv9" id="mUK-0B-MWH"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                    <connections>
+                        <outlet property="btnBack" destination="Vhc-dT-Peo" id="RGc-lv-Lgd"/>
+                        <outlet property="btnForward" destination="ZQY-xR-Jiq" id="Xpq-6o-nGb"/>
+                        <outlet property="btnRefresh" destination="pEW-6g-zo6" id="XSU-wS-mn4"/>
+                        <outlet property="btnStop" destination="irC-TK-RWJ" id="WuW-rN-VC1"/>
+                        <outlet property="urlTextField" destination="HD8-01-RaE" id="KO1-pD-Gnd"/>
+                        <outlet property="webView" destination="HHg-yA-Irc" id="sLF-4Y-hHC"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="125" y="-11"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="go-back24.png" width="24" height="24"/>
+        <image name="go-into24.png" width="24" height="24"/>
+        <image name="refresh24.png" width="24" height="24"/>
+        <image name="stop24.png" width="24" height="24"/>
+    </resources>
+    <classes>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="btnBackClicked:"/>
+                <relationship kind="action" name="btnForwardClicked:"/>
+                <relationship kind="action" name="btnGoClicked:"/>
+                <relationship kind="action" name="btnRefreshClicked:"/>
+                <relationship kind="action" name="btnStopClicked:"/>
+                <relationship kind="outlet" name="btnBack" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="btnForward" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="btnRefresh" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="btnStop" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="urlTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
