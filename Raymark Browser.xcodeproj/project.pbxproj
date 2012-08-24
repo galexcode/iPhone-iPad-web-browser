@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D78E87E515E73A2000863338 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E87E415E73A2000863338 /* UIKit.framework */; };
+		D78E87E715E73A2000863338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E87E615E73A2000863338 /* Foundation.framework */; };
+		D78E87E915E73A2000863338 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E87E815E73A2000863338 /* CoreGraphics.framework */; };
+		D78E87EF15E73A2000863338 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D78E87ED15E73A2000863338 /* InfoPlist.strings */; };
+		D78E87F115E73A2000863338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D78E87F015E73A2000863338 /* main.m */; };
+		D78E87F515E73A2000863338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D78E87F415E73A2000863338 /* AppDelegate.m */; };
+		D78E87F815E73A2000863338 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78E87F615E73A2000863338 /* MainStoryboard.storyboard */; };
+		D78E87FB15E73A2000863338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78E87FA15E73A2000863338 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D78E87E015E73A2000863338 /* Raymark Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raymark Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78E87E415E73A2000863338 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D78E87E615E73A2000863338 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D78E87E815E73A2000863338 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D78E87EC15E73A2000863338 /* Raymark Browser-Info.plist */ = {isa = PBXFileReference; path = "Raymark Browser-Info.plist"; sourceTree = "<group>"; };
+		D78E87EE15E73A2000863338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D78E87F015E73A2000863338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D78E87F215E73A2000863338 /* Raymark Browser-Prefix.pch */ = {isa = PBXFileReference; path = "Raymark Browser-Prefix.pch"; sourceTree = "<group>"; };
+		D78E87F315E73A2000863338 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D78E87F415E73A2000863338 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D78E87F715E73A2000863338 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D78E87F915E73A2000863338 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D78E87FA15E73A2000863338 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D78E87DD15E73A2000863338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78E87E515E73A2000863338 /* UIKit.framework in Frameworks */,
+				D78E87E715E73A2000863338 /* Foundation.framework in Frameworks */,
+				D78E87E915E73A2000863338 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D78E87D515E73A1F00863338 = {
+			isa = PBXGroup;
+			children = (
+				D78E87EA15E73A2000863338 /* Raymark Browser */,
+				D78E87E315E73A2000863338 /* Frameworks */,
+				D78E87E115E73A2000863338 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D78E87E115E73A2000863338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D78E87E015E73A2000863338 /* Raymark Browser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D78E87E315E73A2000863338 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D78E87E415E73A2000863338 /* UIKit.framework */,
+				D78E87E615E73A2000863338 /* Foundation.framework */,
+				D78E87E815E73A2000863338 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D78E87EA15E73A2000863338 /* Raymark Browser */ = {
+			isa = PBXGroup;
+			children = (
+				D78E87F315E73A2000863338 /* AppDelegate.h */,
+				D78E87F415E73A2000863338 /* AppDelegate.m */,
+				D78E87F615E73A2000863338 /* MainStoryboard.storyboard */,
+				D78E87F915E73A2000863338 /* ViewController.h */,
+				D78E87FA15E73A2000863338 /* ViewController.m */,
+				D78E87EB15E73A2000863338 /* Supporting Files */,
+			);
+			path = "Raymark Browser";
+			sourceTree = "<group>";
+		};
+		D78E87EB15E73A2000863338 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D78E87EC15E73A2000863338 /* Raymark Browser-Info.plist */,
+				D78E87ED15E73A2000863338 /* InfoPlist.strings */,
+				D78E87F015E73A2000863338 /* main.m */,
+				D78E87F215E73A2000863338 /* Raymark Browser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D78E87DF15E73A2000863338 /* Raymark Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78E87FE15E73A2000863338 /* Build configuration list for PBXNativeTarget "Raymark Browser" */;
+			buildPhases = (
+				D78E87DC15E73A2000863338 /* Sources */,
+				D78E87DD15E73A2000863338 /* Frameworks */,
+				D78E87DE15E73A2000863338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Raymark Browser";
+			productName = "Raymark Browser";
+			productReference = D78E87E015E73A2000863338 /* Raymark Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D78E87D715E73A1F00863338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Raymark;
+			};
+			buildConfigurationList = D78E87DA15E73A1F00863338 /* Build configuration list for PBXProject "Raymark Browser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D78E87D515E73A1F00863338;
+			productRefGroup = D78E87E115E73A2000863338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D78E87DF15E73A2000863338 /* Raymark Browser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D78E87DE15E73A2000863338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78E87EF15E73A2000863338 /* InfoPlist.strings in Resources */,
+				D78E87F815E73A2000863338 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D78E87DC15E73A2000863338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78E87F115E73A2000863338 /* main.m in Sources */,
+				D78E87F515E73A2000863338 /* AppDelegate.m in Sources */,
+				D78E87FB15E73A2000863338 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D78E87ED15E73A2000863338 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D78E87EE15E73A2000863338 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D78E87F615E73A2000863338 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D78E87F715E73A2000863338 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D78E87FC15E73A2000863338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D78E87FD15E73A2000863338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D78E87FF15E73A2000863338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raymark Browser/Raymark Browser-Prefix.pch";
+				INFOPLIST_FILE = "Raymark Browser/Raymark Browser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D78E880015E73A2000863338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raymark Browser/Raymark Browser-Prefix.pch";
+				INFOPLIST_FILE = "Raymark Browser/Raymark Browser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D78E87DA15E73A1F00863338 /* Build configuration list for PBXProject "Raymark Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78E87FC15E73A2000863338 /* Debug */,
+				D78E87FD15E73A2000863338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78E87FE15E73A2000863338 /* Build configuration list for PBXNativeTarget "Raymark Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78E87FF15E73A2000863338 /* Debug */,
+				D78E880015E73A2000863338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D78E87D715E73A1F00863338 /* Project object */;
+}
